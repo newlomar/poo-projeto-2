@@ -28,7 +28,7 @@ public class ConsultarFunc {
 			}
 
 			for (Func f : funcionarios) {
-				System.out.println(f.getCodigo() + " ==> " + f.getNome() + " " + f.getCargo() + " " + f.getEnd());
+				System.out.println("\nCodigo: " + f.getCodigo() + " | Nome: " + f.getNome() + " | Cargo: " + f.getCargo() + " | Endereço: " + f.getEnd() + "\n");
 			}
 
 			stmt.close();

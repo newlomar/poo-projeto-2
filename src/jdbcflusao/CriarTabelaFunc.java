@@ -19,7 +19,7 @@ public class CriarTabelaFunc {
 			stmt.execute(base);
 			stmt.execute(sql);
 			
-			System.out.println("Tabela criada com sucesso!");
+			System.out.println("Tabela criada com sucesso!\n");
 			conexao.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);

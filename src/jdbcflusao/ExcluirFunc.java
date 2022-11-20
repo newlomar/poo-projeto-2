@@ -21,7 +21,7 @@ public class ExcluirFunc {
 			stmt.setInt(1, codigo);
 			stmt.execute();
 			
-			System.out.println("Funcionario deletado com sucesso!");
+			System.out.println("\nFuncionario deletado com sucesso!\n");
 
 		} catch (SQLException e) {
 			throw new RuntimeException(e);

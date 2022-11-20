@@ -28,7 +28,7 @@ public class NovoFunc {
 			
 			stmt.execute();
 			
-			System.out.println("Funcionario inserido com sucesso!");
+			System.out.println("\nFuncionario inserido com sucesso!\n");
 
 		} catch (SQLException e) {
 			throw new RuntimeException(e);

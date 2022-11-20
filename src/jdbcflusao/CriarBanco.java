@@ -12,7 +12,7 @@ public class CriarBanco {
 			Statement stmt = conexao.createStatement();
 			stmt.execute("CREATE DATABASE IF NOT EXISTS ghflusao");
 			
-			System.out.println("Banco criado com sucesso!");
+			System.out.println("Banco criado com sucesso!\n");
 			conexao.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
